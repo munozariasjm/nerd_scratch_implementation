@@ -88,4 +88,3 @@ params, history = fit(jax.random.PRNGKey(0), model, make_noise(molecule), molecu
 ```
 
 `log_psi` maps one configuration `r` of shape `[N, 3]` to `log|Ψ(r)|`. Electrons are ordered spin-up first.
-# nerd_scratch_implementation
