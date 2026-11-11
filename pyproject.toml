@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nerd"
+version = "1.0.0"
+description = "Neural electron real-space densities (NERD) from neural wave functions"
+requires-python = ">=3.10"
+dependencies = ["jax", "optax", "numpy", "pyscf"]
+
+[project.optional-dependencies]
+deepqmc = ["deepqmc==1.3.0", "hydra-core==1.3.4"]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["slow: density fits that take about a minute on a CPU"]

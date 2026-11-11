@@ -1,0 +1,25 @@
+{
+ "contact_density": 3.647735715978043,
+ "exact_contact_density": 3.62335,
+ "relative_contact_error": 0.006730157444917895,
+ "sprint1_relative_contact_error_same_recipe": 0.0038,
+ "raw_electron_counts": [
+  1.0017431134254335,
+  1.0002917703249903
+ ],
+ "dipole": [
+  -0.00015235505129958943,
+  -0.00032278214626959775,
+  -0.00010535370996960641
+ ],
+ "hellmann_feynman_forces": [
+  [
+   0.0010185881047039668,
+   -0.00044686884391419157,
+   -0.0006020221886591792
+  ]
+ ],
+ "nuclear_potential_energy": -6.754702266712022,
+ "fit_seconds": 286.1020853728987,
+ "reload_error": 4.76837158203125e-07
+}
